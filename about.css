@@ -65,6 +65,13 @@ footer p {
     margin: 0;
 }
 
+@media screen and (max-width: 600px) {
+  .about-section {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
 @media (max-width: 768px) {
     .about-us {
         padding: 15px;
@@ -83,3 +90,4 @@ footer p {
         font-size: 1em;
     }
 }
+
