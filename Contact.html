@@ -8,60 +8,60 @@
 </head>
 <body>
 
-    <header>
-        <h1><span>Contact</span> Us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <p>We’d love to hear from you! Whether you have a question, suggestion, or just want to share your thoughts, feel free to reach out. Our goal is to provide valuable educational content, and your feedback is important to us.</p>
-    </header>
-
-    <section>
+<header>
+    <h1><span>Contact</span> Us</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <p>
+        We’d love to hear from you! Whether you have a question, suggestion, 
+        or just want to share your thoughts, feel free to reach out.
+    </p>
+</header>
+<main>
+    <section class="contact-container">
         <h2>Get in Touch</h2>
-        
         <h3>Email</h3>
-        <p>For inquiries, collaboration proposals, or feedback, please email us at:  
-            <a href="mailto:contact@educationalblog.com">contact@educationalblog.com</a>
+        <p>
+            For inquiries, collaboration proposals, or feedback, email us at:
+            <br>
+            <a href="mailto:contact@educationalblog.com">
+                contact@educationalblog.com
+            </a>
         </p>
-
         <h3>Social Media</h3>
-        <p>Stay connected with us on our social media platforms for updates, educational tips, and more!  
-            <ul>
-                <li><a href="#">Facebook: EducationalBlogFB</a></li>
-                <li><a href="#">Twitter: @EducationalBlog</a></li>
-                <li><a href="#">Instagram: @EducationalBlogInsta</a></li>
-                <li><a href="#">LinkedIn: EducationalBlogLinkedIn</a></li>
-            </ul>
-        </p>
-
+        <ul>
+            <li><a href="#">Facebook: EducationalBlogFB</a></li>
+            <li><a href="#">Twitter: @EducationalBlog</a></li>
+            <li><a href="#">Instagram: @EducationalBlogInsta</a></li>
+            <li><a href="#">LinkedIn: EducationalBlogLinkedIn</a></li>
+        </ul>
         <h3>Send Us a Message</h3>
-        <p>Have a specific question or need assistance? Fill out the form below, and we’ll get back to you as soon as possible!</p>
-        
-        <form action="/submit" method="post">
-            <label for="name">Name:</label>
+        <p>
+            Have a specific question or need assistance? Fill out the form below.
+        </p>
+        <form class="contact-form" action="/submit" method="post">
+            <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
-            <br><br>
 
-            <label for="email">Email Address:</label>
+            <label for="email">Email Address</label>
             <input type="email" id="email" name="email" required>
-            <br><br>
 
-            <label for="subject">Subject:</label>
+            <label for="subject">Subject</label>
             <input type="text" id="subject" name="subject" required>
-            <br><br>
 
-            <label for="message">Message:</label>
+            <label for="message">Message</label>
             <textarea id="message" name="message" required></textarea>
-            <br><br>
-
             <button type="submit">Submit</button>
         </form>
     </section>
-
+</main>
+<footer>
+    <p>&copy; 2026 Educational Blog. All rights reserved.</p>
+</footer>
 </body>
 </html>
-
