@@ -1,4 +1,3 @@
-.<!--Basic HTML Structure-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,94 +8,49 @@
     <link rel="stylesheet" href="Educational Blog.css">
 </head>
 <body>
-    <header>
-        <h1><span>Educational</span>Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <h1><span>Educational</span>Blog</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <!-- Search Bar and Categories -->
+    <section class="search-categories">
+        <input type="text" id="search-bar" placeholder="Search articles...">
+        <div class="categories">
+            <button>Science</button>
+            <button>Math</button>
+            <button>History</button>
+        </div>
+    </section>
+    <!-- Blog Articles -->
+    <section class="blog-articles">
+        <article>
+            <img src="https://www.cud.ac.ae/sites/default/files/general/2023/engineering/mathematics.jpg" alt="Mathematics" class="thumbnail">
+            <h2><a href="mathematics.html">How to Learn Mathematics Effectively</a></h2>
+            <p class="excerpt">
+                Mathematics can be a challenging subject for many students. However, with the right approach, anyone can excel...
+            </p>
+            <a href="mathematics.html" class="read-more">Read More</a>
+        </article>
 
-    <main>
-        <!-- Search Bar and Categories -->
-        <section class="search-categories">
-            <input type="text" id="search-bar" placeholder="Search articles..." />
-            <div class="categories">
-                <button>Science</button>
-                <button>Math</button>
-                <button>History</button>
-            </div>
-        </section>
-
-        <!-- Blog Articles -->
-        <section class="blog-articles">
-            <article>
-                <img src="https://www.cud.ac.ae/sites/default/files/general/2023/engineering/mathematics.jpg" alt="Article Image" class="thumbnail">
-                <h2><a href="#">How to Learn Mathematics Effectively</a></h2>
-                <p class="excerpt">Mathematics can be a challenging subject for many students. However, with the right approach, anyone can excel...</p>
-                <a href="mathematics.html" class="read-more">Read More</a>
-            </article>
-
-            <article>
-                <img src="https://em6sqi3i3t5.exactdn.com/wp-content/uploads/2024/04/physics_27c5571306.webp?strip=all&lossy=1&w=640&ssl=1" alt="Article Image" class="thumbnail">
-                <h2><a href="#">The Basics of Physics: A Beginner's Guide</a></h2>
-                <p class="excerpt">Physics is the study of the fundamental forces of nature. This guide will introduce you to the key concepts...</p>
-                <a href="physics.html" class="read-more">Read More</a>
-            </article>
-
-            <!-- Add more articles as needed -->
-        </section>
-    </main>
-
-    <footer>
-        <p>Created by Siddhi Patel | Educational Blog</p>
-    </footer>
+        <article>
+            <img src="https://em6sqi3i3t5.exactdn.com/wp-content/uploads/2024/04/physics_27c5571306.webp" alt="Physics" class="thumbnail">
+            <h2><a href="physics.html">The Basics of Physics: A Beginner's Guide</a></h2>
+            <p class="excerpt">
+                Physics is the study of the fundamental forces of nature. This guide will introduce you to the key concepts...
+            </p>
+            <a href="physics.html" class="read-more">Read More</a>
+        </article>
+    </section>
+</main>
+<footer>
+    <p>Created by Siddhi Patel | Educational Blog</p>
+</footer>
 </body>
 </html>
-
-<!--Adding Author Bio to Posts (Within Each Article)-->
-<article>
-    <img src="https://www.cud.ac.ae/sites/default/files/general/2023/engineering/mathematics.jpg" alt="Article Image" class="thumbnail">
-    <h2><a href="#">How to Learn Mathematics Effectively</a></h2>
-    <p class="excerpt">Mathematics can be a challenging subject for many students. However, with the right approach, anyone can excel...</p>
-    <a href="mathematics.html" class="read-more">Read More</a>
-    
-    <!-- Author Bio -->
-    <section class="author-bio">
-        <h3>About the Author</h3>
-        <p><strong>Michael Pershan </strong> Michael Pershan began his career in 2010 at a high school in New York City where he taught mathematics and computer science. Since then he has taught at
-            St Ann’s School in Brooklyn, where he teaches math to elementary, middle, and high school students, and at Bridge to Enter Advanced Mathematics’s summer camp for underserved students. He has taught a course for teachers at Math for America, organized math education conferences, and helped create research-informed curriculum for Mathalicious, Amplify Education and M.I.T.’s Teaching Systems Lab. He and his family live in NYC.</p>
-        <img src="https://www.educationnext.org/wp-content/uploads/2024/09/author_mpershan-300x300.jpg" alt="Author Image" class="author-image"><br>
-        <a href="https://michaelpershan.com/" class="read-more">Read More</a>
-    </section>
-</article>
-
-<!--Comment Section Design (Only Design for Now)
-You can create a simple layout for the comment section, which would include a form where users could enter their name, email, and comment.-->
-
-<section class="comments">
-    <h3>Leave a Comment</h3>
-    <form action="#" method="post">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Comment" required></textarea>
-        <button type="submit">Post Comment</button>
-    </form>
-    
-    <div class="comment-list">
-        <div class="comment">
-            <strong>Jane Doe:</strong>
-            <p>This article was very helpful, especially the tips for solving problems!</p>
-        </div>
-        
-        <div class="comment">
-            <strong>Mark Smith:</strong>
-            <p>Great insights on learning math effectively. I’ll definitely use these strategies!</p>
-        </div>
-    </div>
-</section>
-
-
