@@ -1,4 +1,4 @@
-/* General Styles */
+/* GENERAL STYLES */
 body {
     font-family: Arial, sans-serif;
     background-color: #f6f6f6;
@@ -20,6 +20,7 @@ h1, h2, h3 {
     margin-bottom: 10px;
 }
 
+/* ABOUT SECTION */
 .about-us {
     max-width: 900px;
     margin: 40px auto;
@@ -40,7 +41,7 @@ h1, h2, h3 {
 }
 
 .about-us ul {
-    list-style-type: none;
+    list-style: none;
     padding-left: 0;
 }
 
@@ -53,6 +54,7 @@ h1, h2, h3 {
     color: #333;
 }
 
+/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
@@ -65,29 +67,41 @@ footer p {
     margin: 0;
 }
 
+/* RESPONSIVE DESIGN */
+
+/* Phones */
 @media screen and (max-width: 600px) {
-  .about-section {
-    width: 100%;
-    padding: 10px;
-  }
+
+    header {
+        font-size: 1.8em;
+        padding: 15px;
+    }
+
+    .about-us {
+        width: 100%;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .about-us h2 {
+        font-size: 1.4em;
+    }
+
+    .about-us p,
+    .about-us ul li {
+        font-size: 1em;
+    }
 }
 
-@media (max-width: 768px) {
-    .about-us {
-        padding: 15px;
-        margin: 20px;
-    }
+/* Tablets */
+@media screen and (max-width: 768px) {
 
     header {
         font-size: 2em;
     }
 
-    .about-us h2 {
-        font-size: 1.5em;
-    }
-
-    .about-us p, .about-us ul li {
-        font-size: 1em;
+    .about-us {
+        margin: 20px;
+        padding: 15px;
     }
 }
-
